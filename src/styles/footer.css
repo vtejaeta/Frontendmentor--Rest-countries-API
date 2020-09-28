@@ -1,0 +1,12 @@
+.footer {
+  margin-top: 400px;
+  text-align: center;
+  background-color: rgb(8, 8, 73);
+  padding: 10px;
+}
+p {
+  color: white;
+}
+a {
+  color: crimson;
+}

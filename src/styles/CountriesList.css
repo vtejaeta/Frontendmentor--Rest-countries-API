@@ -1,0 +1,149 @@
+.card {
+  margin: 0;
+  max-width: 250px;
+  justify-self: stretch;
+  align-self: stretch;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+.card .img-cont {
+  max-height: 180px;
+  max-width: 250px;
+  border-bottom: 0.1px solid rgba(0, 0, 0, 0.05);
+}
+
+.card img {
+  height: 180px;
+  width: 250px;
+  object-fit: cover;
+}
+
+/* font-family: 'Nunito Sans', sans-serif; */
+.card h1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 20px;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.card ul {
+  list-style-type: none;
+  padding: 0px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  margin: 0px;
+  margin-left: 22px;
+}
+
+.card li {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 12px;
+  color: black;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.card li span {
+  color: rgba(17, 21, 23, 0.6);
+  font-weight: 600;
+}
+
+.cont-card {
+  margin: 0 150px;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  /* grid-template-columns: repeat(4, 1fr); */
+  grid-row-gap: 40px;
+  grid-column-gap: 40px;
+  padding: 20px 0px 200px 0px;
+}
+
+sample {
+  margin: 0px;
+}
+
+h4 {
+  font-family: "Nunito-sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1400px) {
+  .cont-card {
+    margin: 0 100px;
+  }
+}
+
+@media screen and (max-width: 1400px) and (min-width: 1300px) {
+  .cont-card {
+    margin: 0 100px;
+  }
+}
+
+@media screen and (max-width: 1299px) and (min-width: 1000px) {
+  .cont-card {
+    margin: 0 80px;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+  .cont-card {
+    margin: 0 50px;
+    max-width: 1000px;
+  }
+}
+
+@media screen and (max-width: 700px) and (min-width: 620px) {
+  .cont-card {
+    margin: 0 40px;
+    max-width: 750px;
+  }
+}
+
+@media screen and (max-width: 620px) and (min-width: 400px) {
+  .cont-card {
+    margin: 0 145px;
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 470px) and (min-width: 400px) {
+  .cont-card {
+    margin: 0 85px;
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 400px) and (min-width: 350px) {
+  .cont-card {
+    margin: 0 40px;
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 350px) and (min-width: 300px) {
+  .cont-card {
+    margin: 0 30px;
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 300px) and (min-width: 200px) {
+  .cont-card {
+    margin: 0 15px;
+    max-width: 300px;
+  }
+}

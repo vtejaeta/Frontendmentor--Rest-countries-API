@@ -1,0 +1,184 @@
+section {
+  max-width: 1200px;
+  margin: 0px 150px;
+  padding: 50px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+section input {
+  border: none;
+  outline: none;
+  padding: 13px 100px 13px 5px;
+  font-size: 14px;
+  font-family: "Nunito-sans", sans-serif;
+}
+
+section .input-field {
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+  font-family: "Nunito-sans", sans-serif;
+}
+
+section .filter {
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+  font-family: "Nunito-sans", sans-serif;
+  margin: 0px 20px 0px 0px;
+}
+
+section .input-field:hover {
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+}
+
+section .input-field i {
+  margin: 10px;
+  padding-left: 17px;
+}
+
+section .filter select {
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 12px 80px 10px 7px;
+  font-family: "Nunito-sans", sans-serif;
+  font-size: 13px;
+}
+
+section .filter:hover {
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+}
+
+section .filter option {
+  border: none;
+  outline: none;
+  font-family: "Nunito-sans", sans-serif;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 800px) and (min-width: 600px) {
+  section input {
+    padding: 10px;
+  }
+  section .filter select {
+    padding: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) and (min-width: 400px) {
+  section input {
+    padding: 13px;
+  }
+  section .filter select {
+    padding: 13px;
+  }
+  section {
+    flex-direction: column;
+    margin: 0px;
+    width: 90%;
+    padding: 20px 0px 20px 10px;
+    overflow-x: hidden;
+  }
+  section .input-field {
+    margin-bottom: 20px;
+    width: 96%;
+  }
+  section .filter {
+    width: 140px;
+    justify-content: center;
+  }
+}
+
+/* ---------------------------------------------------- */
+
+@media screen and (max-width: 1490px) and (min-width: 1300px) {
+  section {
+    margin: 0 120px;
+    max-width: 1200px;
+  }
+}
+
+@media screen and (max-width: 1299px) and (min-width: 1000px) {
+  section {
+    margin: 0 100px;
+    max-width: 1280px;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+  section {
+    margin: 0 80px;
+    max-width: 700px;
+  }
+}
+
+@media screen and (max-width: 700px) and (min-width: 625px) {
+  section {
+    margin: 0 50px;
+    max-width: 950px;
+  }
+}
+
+@media screen and (max-width: 625px) and (min-width: 600px) {
+  section {
+    margin: 0 80px;
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 600px) and (min-width: 500px) {
+  section {
+    margin: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (max-width: 470px) and (min-width: 400px) {
+  section {
+    margin: 0;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) and (min-width: 300px) {
+  section {
+    flex-direction: column;
+    max-width: 100%;
+    padding: 15px 14px 10px 14px;
+    margin: 0px;
+  }
+  section input {
+    padding: 13px;
+  }
+  section .input-field {
+    width: 97%;
+  }
+  section .filter {
+    margin-top: 20px;
+    max-width: 140px;
+  }
+  section #region {
+    padding: 13px;
+  }
+}
+
+@media screen and (max-width: 300px) and (min-width: 200px) {
+  section {
+    flex-direction: column;
+    margin: 0px;
+    padding: 10px;
+  }
+  section .filter {
+    margin-top: 10px;
+    max-width: 120px;
+  }
+  section #region {
+    padding: 11px;
+  }
+  section input {
+    padding: 13px 40px 13px 13px;
+  }
+}

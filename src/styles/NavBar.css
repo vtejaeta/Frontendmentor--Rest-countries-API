@@ -1,0 +1,48 @@
+nav {
+  margin: 0 auto;
+  max-width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.nav-cont {
+  margin: 0;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.1);
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+nav h1 {
+  margin-left: 20px;
+}
+
+nav div {
+  margin-right: 22px;
+}
+
+@media screen and (max-width: 500px) and (min-width: 340px) {
+  nav h1 {
+    font-size: 16px;
+    margin-top: 25px;
+  }
+  nav div {
+    margin-top: 6px;
+  }
+  nav div p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 340px) and (min-width: 100px) {
+  nav h1 {
+    font-size: 14px;
+    margin-top: 25px;
+  }
+  nav div p {
+    font-size: 12px;
+  }
+  nav div {
+    margin-top: 8px;
+  }
+}
