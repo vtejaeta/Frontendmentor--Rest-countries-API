@@ -1,6 +1,6 @@
 # Country Details App
 
-<img alt="darkmode_youtube_clone" src="https://user-images.githubusercontent.com/65386350/94394575-4e3a9780-017b-11eb-882f-da81dceb826e.jpg">
+<img alt="Country Details App" src="https://user-images.githubusercontent.com/65386350/94394575-4e3a9780-017b-11eb-882f-da81dceb826e.jpg">
 
 ## Overview
 Hello 👋, Welcome to my project of Country details app which was built with [Create React App](https://github.com/facebook/create-react-app). This web app gives all country details like Region, Population, Capital, Borders, etc., with their country flag. This also allows users to filter country by its name or by its region.
